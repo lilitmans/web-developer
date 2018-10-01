@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ellipse</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../assets/external_sources/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="../assets/external_sources/font-awesome-4.7.0/css/font-awesome.min.css"> -->	
+
+	<script src="../assets/external_sources/jquery-3.3.1.min.js"></script>
+	<script src="../assets/external_sources/popper.min.js"></script>
+	<script src="../assets/external_sources/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		.wide-block {
+			max-width: 1920px;
+			min-width: 320px;
+			position: relative;
+		}
+
+		#about_me {
+			position: relative;
+			height: 693px;
+			background-color: #fbfbfb;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="wide-block mx-auto">
+		<div id="about_me">
+			<div class="ellipse">
+				<svg class="bg-img" width="700" height="651">
+					<defs>
+				    	<linearGradient id="grad1" x1="0" y1="0" x2="0" y2="1">
+				     		<stop offset="5%" style="stop-color: #ff2f96;stop-opacity: 1" /> <!-- pink -->
+				     		<stop offset="100%" style="stop-color: #ff8f5a;stop-opacity:1" /> <!-- orange -->
+				    	</linearGradient>
+					</defs>
+					<path d="M140 650 C 140 650, 90 600, 150 510, c 0 0, 300 -530, 550 -220, v 360, h -560" stroke="" fill="url(#grad1)"/>
+				</svg>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

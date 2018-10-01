@@ -1,0 +1,523 @@
+@media only screen and (max-width: 1560px) {
+	#self_introduce_block {
+		background-position: 40%
+	}
+}
+
+@media only screen and (max-width: 1460px) {
+	#self_introduce_block {
+		background-position: 50%
+	}
+}
+
+@media only screen and (max-width: 1360px) {
+	#self_introduce_block {
+		background-position: 60%
+	}
+}
+
+@media only screen and (max-width: 1260px) {
+	.made-works-block__row:before,
+	.made-works-block__row:after {
+		transform: translate(0) rotate(180deg);
+	}
+
+	.made-works-block__row:after {
+		transform: translate(0) rotate(0deg);
+	}
+
+	.wide-block {
+		padding: 0 30px;
+	}
+}
+
+@media only screen and (max-width: 1140px) {
+	.narrow-block {
+		padding: 0 16px;
+	}
+
+	#self_introduce_block {
+		background-position: 65%;
+	}
+
+	.footer__utilits {
+		padding-right: 10px;
+	}
+
+}
+
+@media only screen and (max-width: 1040px) {
+
+	#self_introduce_block {
+		background-position: 70%;
+	}
+
+	.self-introduce-block__name {
+		font-size: 70px;
+	}
+
+	.self-introduce-block__profession {
+		font-size: 20px;
+	}
+
+	.footer__phone-number, 
+	.footer__email {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar-toggler {
+		border: none !important;
+		padding: 0 0 3px 0 !important;
+	}
+
+	#self_introduce_block {
+		margin-right: 16px;
+		margin-left: 16px;
+	}
+
+	.menu {
+		height: auto;
+		padding: 0 16px;
+	}
+
+	.menu__ul {
+		width: 100%;
+		display: flex;
+	    flex-direction: row;
+	}
+
+	.single-work-type__img {
+		margin-top: 30px;
+	}
+
+	.terms-prices-block__work-deskription {
+		font-size: 35px;
+	}
+
+	.made-works-block > div > div:first-child,
+	.made-works-block > div > div:last-child {
+		padding: 0 16px;
+	}
+
+}
+
+@media only screen and (max-width: 950px) {
+	.self-introduce-block__name {
+		font-size: 60px;
+	}
+
+	.self-introduce-block__profession {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 920px) {
+	#self_introduce_block {
+		background-position: 72%;
+	}
+}
+
+@media only screen and (max-width: 870px) {
+	#self_introduce_block {
+		margin: 0;
+		position: relative;
+		background-image: none;
+	}
+
+	.mobile-self-photo {
+		display: block;
+		background-image: url("../img/mobile_my_picture.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-clip: padding-box;
+		width: 100%;
+		min-height: 605px;
+	    width: 100%;
+	    max-height: 1000px;
+	    height: 1000px;
+	    background-position: bottom;
+	}
+
+	#about_me_block {
+		height: 420px;
+		background-color: transparent;
+	}
+
+
+	.flying-element {
+		font-size: 30px;
+	}
+
+	.flying-element.around-pic:nth-child(1) {
+		left: 80px;
+    	top: 110px;
+	}
+
+	.flying-element.around-pic:nth-child(2) {
+		top: 130px;
+	    left: 692px;
+	    top: calc(100% - 75%);
+	    left: calc(100% - 20%);
+	    transform: rotate(20deg);
+	}
+
+	.flying-element.around-pic:nth-child(3) {
+	    top: 430px;
+	    left: 91px;
+	    /*left: calc();*/
+	    top: calc(100% - 55%);
+	    transform: rotate(20deg);
+	}
+
+	.flying-element.around-pic:nth-child(4) {
+		display: none;
+	}
+
+	.flying-element.around-pic:nth-child(5) {
+		top: 60px;
+    	left: 500px;
+    	top: calc(100% - 89%);
+    	left: calc(100% - 45%);
+	}
+
+	.without-padding-wide-block {
+		padding: 0;
+	}
+
+	.terms-prices-block {
+		height: 420px;
+	}
+
+	.mobile-call-btn {
+		height: 100%;
+	}
+
+	.mobile-call-btn a {
+		height: inherit;
+	}
+
+	.mobile-call-btn img {
+		width: 30px;
+	}
+
+
+	.footer__utilits {
+		padding-right: 5px;
+	}
+
+	.footer__phone-number, 
+	.footer__email {
+		font-size: 16px;
+	}
+
+	.self-introduce-block__name {
+		font-size: 70px;
+	}
+
+	.self-introduce-block__profession {
+	    font-size: 25px;
+	}
+
+	.footer__btn {
+		width: 100%;
+	}
+
+	.social-media__span {
+		padding-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.wide-block,
+	.narrow-block {
+		width: 100%;
+		height: auto;
+	}
+
+	.narrow-block {
+		padding: 0;
+	}
+
+	.wide-block {
+		padding: 0 20px;
+		margin: 0;
+	}
+
+	.without-padding-wide-block {
+		padding: 0;
+	}
+
+	.terms-prices-block__small {
+		padding-top: 25px;
+	}
+
+	.phone-number {
+		font-size: 18px;
+	}
+
+	.mobile-phone-number,
+	.mobile-call-btn {
+		display: inline-block;
+	}
+
+	.block-desktop {
+		display: none;
+	}
+
+	.terms-prices-block {
+		height: 381px;
+	}
+
+	#about_me_block {
+		height: auto;
+		background-color: transparent;
+		margin-top: 22px;
+	}
+
+	.self-introduce-block__name {
+		font-size: 30px;
+	}
+
+	.self-introduce-block__profession {
+		font-size: 16px;
+		align-self: center;
+		margin-bottom: 28px;
+	}
+
+	.footer__narrow-block {
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+
+	.footer__menu-block {
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	.footer__ul {
+		font-size: 15px;
+		margin-bottom: 50px;
+	}
+
+	.footer__links {
+		margin-bottom: 20px;
+	}
+
+	.footer__links:last-child {
+		margin: 0;
+	}
+
+	.footer__phone-mail-block {
+		margin-bottom: 27px;
+	}
+
+	.footer__btn {
+		display: none;
+	}
+
+	.footer__mobile-btn {
+		display: block;
+	}
+
+	.footer__social-media {
+		margin-top: 58px;
+		margin-bottom: 50px;
+	}
+
+	/*.social-media__span i {
+		font-size: 21px;: 
+	}*/
+
+	.footer__copyright-date {
+		font-size: 12px;
+		padding: 13px 0;
+	}
+
+	.footer__phone-number,
+	.footer__email {
+		color: #b2b9ca;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.mobile-self-photo {
+		height: 860px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.mobile-self-photo {
+		height: 850px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.mobile-self-photo {
+		height: 800px;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.mobile-self-photo {
+		height: 750px;
+	}
+
+	.terms-prices-block {
+		height: 460px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.filled-btn {
+		width: 100%;
+		padding: 15px 0;
+		font-size: 16px;
+	}
+
+	.work-block {
+		margin: 50px 0 100px 0;
+	}
+
+	.made-works-block__row:before,
+	.made-works-block__row:after {
+		display: none;
+	}
+
+	.parts-heading {
+		font-size: 30px;
+	}
+
+	.single-work-type__img {
+		height: 57px;
+	}
+
+	.work-types {
+		margin: 0;
+	}
+
+	.single-work-type {
+		margin: auto;
+		width: 70%;
+	}
+
+	.single-work-type:last-child {
+		margin-bottom: 53px;
+	}
+
+	.single-work-type__figure {
+		margin-top: 47px;
+	}
+
+	.single-work-type__text,
+	.made-works-block__text {
+		font-size: 16px;
+	}
+
+	#work_exemples_block {
+		display: none;
+	}
+
+	#mobile_work_exemples_block {
+		display: block;
+		margin-bottom: 50px;
+	}
+
+	#mobile_work_exemples_block h4 {
+		margin-bottom: 43px;
+	}
+
+	.carousel-indicators .indicators {
+		background-color: #ebebeb !important;
+		width: 10px;
+		height: 10px;
+		border-radius: 50px;
+		margin: 0;
+		margin-right: 16px;
+		bottom: -15px;
+	}
+
+	.carousel-indicators .indicators:last-child {
+		margin: 0;
+	}
+
+	.carousel-indicators .active {
+		background-color: #ff4e2e !important;
+	}
+
+	.mobile-carousel-inner {
+		height: 360px;
+	}
+
+	#mobile_work_exemples_block > div > div.carousel-item.single-work.active > div {
+	    right: 0;
+	    bottom: -18px;
+	    left: 0;
+	    padding-bottom: 46px;
+	    color: #8993ad;
+	    background-color: white;
+	    width: 100%;
+
+	}
+
+	.made-works-block {
+		margin-top: 44px;
+	}
+
+	.made-works-block__row .single-work-block {
+		padding: 0 16px;
+	}
+
+	.single-work {
+		height: 100%;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+
+	.single-work img {
+		width: 100%;
+	}
+
+	.terms-prices-block__work-deskription {
+		font-size: 28px;
+		margin-bottom: 47px;
+	}
+
+	.terms-prices-block {
+		height: auto;
+	}
+
+	.terms-prices-block .flexbox-column {
+		padding: 50px 20px;
+	}
+
+	.terms-prices-block__small {
+		padding-top: 25px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.mobile-self-photo {
+		height: 420px;
+	}
+
+	.flying-element.around-pic:nth-child(3) {
+    	top: 280px;
+    	left: 35px;
+    	top: calc(100% - 60%);
+    	left: calc(100% - 90%);
+	}
+
+	.flying-element.around-pic:nth-child(5) {
+	    top: calc(100% - 85%);
+	}
+
+}
+
+@media only screen and (max-width: 375px) {
+	.flying-element.around-pic:nth-child(2) {
+    	left: calc(100% - 27%);
+	}
+
+}
