@@ -74,6 +74,14 @@ header {
 	padding-top: 30px;
 }
 
+a {
+	color: rgba(0,0,0,.5);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
 .wide-block {
 	max-width: 1920px;
 	min-width: 320px;
