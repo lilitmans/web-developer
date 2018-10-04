@@ -57,6 +57,10 @@ html, body {
 	margin: 0;
 }
 
+html [type=button] {
+    -webkit-appearance: none !important;
+}
+
 button:focus {
     outline:none !important;
 }
@@ -100,6 +104,12 @@ header {
 	padding: 17px 0;
 }
 
+.filled-btn-small {
+	width: 20%;
+    padding: 10px;
+    font-size: 16px;
+}
+
 .bordered-btn {
 	background-color: white;
 	border-image: linear-gradient(to right, #ff8f5a 0%,#ff2f96 100%);
@@ -109,14 +119,44 @@ header {
     padding: 8px 0;
 }
 
+.bordered-btn-small {
+	width: 30%;
+}
+
 .bordered-btn__span {
 	color: transparent;
  	background: -webkit-linear-gradient(#ff8f5a 50%, #ff2f96);
  	-webkit-background-clip: text;
 }
 
+.close {
+	color: #ff4e2e !important;
+}
 
-.mobil-self-photo {
+.close:hover {
+	color: #ff2b9a !important;
+}
+
+.modal-header,
+.modal-footer {
+	border: none !important;
+}
+
+.modal__utilits-name,
+.modal__utilits {
+	font-family: 'RobotoBold';
+	color: rgba(0,0,0,.5);
+}
+
+.modal__utilits-name { 
+	font-size: 30px;
+}
+
+.modal__utilits {
+	font-size: 22px;
+}
+
+.mobile-self-photo {
 	display: none;
 }
 
@@ -239,7 +279,7 @@ header {
 	padding-right: 34px;
 }
 
-.menu__li-item:last-child {
+.menu__li-item:nth-child(4) {
 	padding-right: 0;
 	margin-left: auto;
 }
